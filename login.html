@@ -7,13 +7,15 @@
   <!-- Required meta tags -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <script src="https://accounts.google.com/gsi/client" async defer></script>
+ 
 
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="CSS\login.css">
 
-  <title>Services Provided By Raman Stationary</title>
+  <title>Login To PDF Pedlar</title>
 </head>
 
 <body>
@@ -63,7 +65,24 @@
   </div>
 
 
-
+  <html>
+    <body>
+        <script src="https://accounts.google.com/gsi/client" async defer></script>
+        <div id="g_id_onload"
+           data-client_id="777066500593-ih5uvmugbqe74ujs09btcqlh1psmshsi.apps.googleusercontent.com"
+           data-login_uri="https://your.domain/your_login_endpoint"
+           data-auto_prompt="false">
+        </div>
+        <div class="g_id_signin"
+           data-type="standard"
+           data-size="large"
+           data-theme="outline"
+           data-text="sign_in_with"
+           data-shape="rectangular"
+           data-logo_alignment="left">
+        </div>
+    </body>
+  </html>
 
 
 
@@ -93,4 +112,3 @@
 </body>
 
 </html>
-
